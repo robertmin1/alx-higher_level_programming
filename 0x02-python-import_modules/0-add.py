@@ -1,3 +1,5 @@
-from add_0 import add
-
-add(1, 2)
+if __name__ == __main__:
+    form add_0.py import add
+    a = 1
+    b = 2
+    return (a, b)
