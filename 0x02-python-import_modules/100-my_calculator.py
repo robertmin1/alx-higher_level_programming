@@ -5,11 +5,11 @@ if __name__ == "__main__":
 
     def error1():
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        return 1
+        sys.exit(1)
 
     def error2():
         print("Unknown operator. Available operators: +, -, * and /")
-        return 1
+        sys.exit(1)
     if len(sys.argv) != 4:
         error1()
 
