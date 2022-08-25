@@ -11,6 +11,7 @@ if __name__ == "__main__":
     def error2():
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
+        
     if len(sys.argv) != 4:
         error1()
 
