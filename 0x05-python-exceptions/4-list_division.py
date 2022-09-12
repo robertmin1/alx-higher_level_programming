@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def list_division(my_list_1, my_list_2, list_length):
-
+    store = []
     switch = 0
     for i in range(list_length):
         try:
@@ -14,3 +14,10 @@ def list_division(my_list_1, my_list_2, list_length):
         except IndexError:
             print("out of range")
             switch = 1
+        finally:
+            if switch:
+                switch = 0
+                store.append(0)
+            else:
+                store.append(x)
+    return store
