@@ -2,5 +2,5 @@
 """Class Square with size"""
 class Square:
     """Class to create a square with it size"""
-    def __init__(self, size):
-        self.__size = size
+    def __init__(self, square_size):
+        self.__size = sqaure_size
