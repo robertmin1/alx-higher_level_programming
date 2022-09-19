@@ -39,6 +39,7 @@ class Rectangle:
     
     def __repr__(self) -> str:
         return "Rectangle({}, {})".format(self.__width,self.__height)
+        
     def __str__(self):
         total = ""
         if self.__width == 0 or self.__height == 0:
