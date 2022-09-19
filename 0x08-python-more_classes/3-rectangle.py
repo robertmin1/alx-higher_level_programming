@@ -45,6 +45,7 @@ class Rectangle:
             total+= ("#" * self.__width)
             if i is not self.__height:
                 total+="\n"
+        return total
 
     def area(self):
         return self.__width * self.__height
