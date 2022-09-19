@@ -142,7 +142,3 @@ for col in range(N):
 # format results to match assignment output
 for item in coordinate_format(candidates):
     print(item)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
