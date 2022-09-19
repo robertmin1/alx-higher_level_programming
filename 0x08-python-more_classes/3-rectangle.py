@@ -39,11 +39,11 @@ class Rectangle:
 
     def __str__(self):
         total = ""
-        if self.__width is 0 or self.__height is 0:
+        if self.__width == 0 or self.__height == 0:
             return total
         for i in range(self.__height):
             total+= ("#" * self.__width)
-            if i is not self.__height:
+            if i is not self.__height-1:
                 total+="\n"
         return total
 
