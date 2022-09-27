@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """
-Contains the read_file function
+Contains the function "wrtie_file"
 """
 
 
 def write_file(filename="",text=""):
-    """""reads a text file(UTF8) and prints it to stdout"""
+    """returns the number of chars written to "filename" from "text" """
     with open(filename, "w", encoding="utf-8") as f:
         print(f.write(text), end="")
